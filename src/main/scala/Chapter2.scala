@@ -13,8 +13,6 @@ object Chapter2 extends App{
       fibs(n, currentNumber+1, f2, f2+f1)
     }
   }
-  println("Enter number of Fibonacci")
-  println(fibs(readInt))
 
   //Exercise 2
   def isSorted[A](as: Array[A], gt: (A, A) => Boolean): Boolean = {
